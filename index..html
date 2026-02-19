@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KalkulatorKW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kalkulator</h1>
+    </header>
+    <main>
+  <div class="left">
+    <form id="calcForm">
+      <label>
+        Pierwsza liczba
+        <input type="number" id="a">
+      </label>
+      <label>
+        Druga liczba
+        <input type="number" id="b">
+      </label>
+      <label>
+        Operacja
+        <select id="ob">
+          <option value="+">Dodawanie</option>
+          <option value="-">Odejmowanie</option>
+          <option value="*">Mnożenie</option>
+          <option value="/">Dzielenie</option>
+        </select>
+      </label>
+      <button type="button" id="count">Oblicz</button>
+      <h2>Wynik: <span id="result">0</span></h2>
+    </form>
+  </div>
+  <div class="right">
+    <div class="keys">
+      <div data-value="1">1</div>
+      <div data-value="2">2</div>
+      <div data-value="3">3</div>
+      <div data-value="4">4</div>
+      <div data-value="5">5</div>
+      <div data-value="6">6</div>
+      <div data-value="7">7</div>
+      <div data-value="8">8</div>
+      <div data-value="9">9</div>
+    </div>
+  </div>
+</main>
+<script src="script.js"></script>
+    <footer>
+        <h3>Strona została wykonana przez Kacper Węgrzynek Numer Indeksu 123808</h3>
+    </footer>
+</body>
+</html>
